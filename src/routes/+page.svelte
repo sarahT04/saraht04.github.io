@@ -1,7 +1,14 @@
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<script lang="ts">
+	import About from '../components/About.svelte';
+	import Wave from '../components/assets/svg/Wave.svelte';
+	import Main from '../components/Main.svelte';
+	import Works from '../components/Works.svelte';
+	let innerWidth: number = 0;
+</script>
 
-<style lang="postcss">
-	:global(html) {
-		background-color: theme(colors.gray.100);
-	}
-</style>
+<svelte:window bind:innerWidth />
+<Main />
+<Wave/>
+<Works />
+<Wave/>
+<About />

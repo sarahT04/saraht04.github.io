@@ -2,7 +2,18 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#EFF5F5',
+        'secondary': '#497174',
+        'tertiary': '#EB6440',
+        'quartenary': '#D6E4E5',
+      },
+      screens: {
+        'xs': { 'max': '425px' },
+        'hometagline': { 'max': '397px' },
+      }
+    },
   },
   plugins: [],
 }
