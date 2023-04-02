@@ -5,8 +5,8 @@
 	import Illustration from './assets/img/Illustration.png';
 </script>
 
-<main id="main" class="flex p-6 lg:p-20 pt-0 justify-evenly">
-	<img src={Illustration} alt="Illustration of Sarah" class="xs:hidden" />
+<main id="main" class="flex lg:p-20 xs:pt-0 justify-evenly lg:pb-2 p-10">
+	<img src={Illustration} alt="Illustration of Sarah" class="md:block hidden" />
 	<div>
 		<Navbar />
 		<HomeTagline />

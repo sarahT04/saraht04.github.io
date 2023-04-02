@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.project-gallery-wrapper .project-gallery-hover {
+    transition: visibility 0s, opacity 300ms linear;
+}
+
+.project-gallery-wrapper:hover .project-gallery-hover {
+    visibility: visible;
+    opacity: 1;
+}
 
 .wave {
     background: url('./components/assets/svg/Wave.svg') repeat-x;
