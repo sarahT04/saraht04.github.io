@@ -11,7 +11,6 @@ export default {
       },
       screens: {
         'xs': { 'max': '425px' },
-        'hometagline': { 'max': '397px' },
       }
     },
   },
