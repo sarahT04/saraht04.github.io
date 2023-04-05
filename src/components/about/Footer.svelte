@@ -12,7 +12,7 @@
 		class="inline-flex items-center justify-between w-full xs:flex-col xs:items-start gap-3 mt-4"
 	>
 		<p class="section-title !text-xl">Made with 🧡 by SvelteKit and Sarah.</p>
-		<Logos />
+		<Logos goTop={true} />
 	</div>
 	<div class="bg-secondary w-full h-10 block mt-5 absolute left-0" />
 </footer>

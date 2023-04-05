@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Email from '../assets/svg/Email.svelte';
-	import UpArrow from '../assets/svg/UpArrow.svelte';
+	import TiltedArrow from '../assets/svg/SlightlyTiltedArrow.svelte';
 
 	let text: string = 'Say something nice..';
 </script>
@@ -15,6 +15,6 @@
 	<a
 		href={`mailto: sarahtanujaya@gmail.com?subject=Connecting from your portofolio website&body=${text}`}
 		class="inline-flex bg-secondary items-center justify-center rounded-full w-16 h-11"
-		title="Send me a mail!"><UpArrow /></a
+		title="Send me a mail!"><TiltedArrow /></a
 	>
 </section>

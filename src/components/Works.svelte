@@ -3,7 +3,6 @@
 	import ProjectGallery from './projects/ProjectGallery.svelte';
 	import ProjectsTagline from './projects/ProjectsTagline.svelte';
 	import { worksActiveDatas } from './stores/stores';
-	$: console.log($worksActiveDatas);
 </script>
 
 <section id="works" class="max-w-[928px] w-full mx-auto p-6 lg:p-20 pt-0">

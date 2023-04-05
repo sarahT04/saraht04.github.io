@@ -13,7 +13,11 @@
 	{#if none}
 		<p class="section-title text-center !text-2xl lg:!text-3xl">No other projects...</p>
 	{:else}
-		<img {src} alt={`Snapshot of ${title}`} />
+		<img
+			{src}
+			alt={`Snapshot of ${title}`}
+			class="lg:h-[200px] h-[150px] w-full rounded-lg object-cover"
+		/>
 		<p class="section-title !text-2xl">{title}</p>
 		<div
 			class="bg-quartenary w-[241px] h-[190px] lg:w-[314px] lg:h-[245px] rounded-lg absolute top-5 px-4 py-3 border-solid border-[1px] border-secondary flex flex-col justify-around items-stretch opacity-0 invisible project-gallery-hover"

@@ -6,7 +6,7 @@
 </script>
 
 <Main />
-<Wave/>
+<Wave />
 <Works />
-<Wave/>
+<Wave />
 <About />

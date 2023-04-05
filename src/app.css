@@ -5,80 +5,80 @@
 @tailwind utilities;
 
 .project-gallery-wrapper .project-gallery-hover {
-    transition: visibility 0s, opacity 300ms linear;
+	transition: visibility 0s, opacity 300ms linear;
 }
 
 .project-gallery-wrapper:hover .project-gallery-hover {
-    visibility: visible;
-    opacity: 1;
+	visibility: visible;
+	opacity: 1;
 }
 
 .wave {
-    background: url('./components/assets/svg/Wave.svg') repeat-x;
-    position: absolute;
-    top: 0;
-    width: 6400px;
-    height: 168px;
-    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
-    transform: translate(0, 0);
-    border-end-end-radius: 18px;
-    border-end-start-radius: 18px;
+	background: url('./components/assets/svg/Wave.svg') repeat-x;
+	position: absolute;
+	top: 0;
+	width: 6400px;
+	height: 168px;
+	animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+	transform: translate(0, 0);
+	border-end-end-radius: 18px;
+	border-end-start-radius: 18px;
 }
 
 .wave:nth-of-type(2) {
-    top: 23px;
-    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-    opacity: 1;
+	top: 23px;
+	animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -0.125s infinite,
+		swell 7s ease -1.25s infinite;
+	opacity: 1;
 }
 
 @keyframes wave {
-    0% {
-        margin-left: 0;
-    }
+	0% {
+		margin-left: 0;
+	}
 
-    100% {
-        margin-left: -1600px;
-    }
+	100% {
+		margin-left: -1600px;
+	}
 }
 
 @keyframes swell {
+	0%,
+	100% {
+		/* transform: translate(0, -25px); */
+		height: calc(178px + 25px);
+	}
 
-    0%,
-    100% {
-        /* transform: translate(0, -25px); */
-        height: calc(178px + 25px)
-    }
-
-    50% {
-        /* transform: translate(0, 5px); */
-        height: calc(178px - 25px)
-    }
+	50% {
+		/* transform: translate(0, 5px); */
+		height: calc(178px - 25px);
+	}
 }
 
 .my-shadow {
-    box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.25);
+	box-shadow: 10px 20px 4px rgba(0, 0, 0, 0.25);
 }
 
 .section-title {
-    font-family: 'League Spartan', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 29px;
+	font-family: 'League Spartan', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 29px;
 }
 
 .title {
-    font-family: 'Chewy', cursive;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 52px;
+	font-family: 'Chewy', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 52px;
 }
 
 .paragraph {
-    font-family: 'League Spartan', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 15px;
+	font-family: 'League Spartan', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 15px;
 }
